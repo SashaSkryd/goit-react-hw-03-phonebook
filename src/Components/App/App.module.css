@@ -1,0 +1,11 @@
+.container {
+  text-align: center;
+  background-color: rgb(214, 208, 208);
+}
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
