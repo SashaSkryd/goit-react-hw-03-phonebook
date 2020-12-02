@@ -48,7 +48,12 @@ export default class App extends Component {
     this.setState((prevState) => ({
       contacts: [...prevState.contacts.slice(0, index), ...prevState.contacts.slice(index + 1)],
     }))
+    this.reset();
   }
+            
+    reset = () => {
+    this.setState({ filter: '' });
+  };
 
   filterRender = (filter) => {
     this.setState({ filter })
